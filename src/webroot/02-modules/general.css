@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  background: transparent;
+  font-family:'helvetica neue';
+  font-size: 15px;
+  font-weight: 200;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face{
+  font-family: prison;
+  src: url(../04-media/fonts/4990810_.TTF);
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #efeded;
+  color: black;
+}
+
+
+.row .col {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}

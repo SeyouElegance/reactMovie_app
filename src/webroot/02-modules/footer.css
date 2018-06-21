@@ -1,0 +1,33 @@
+.page-footer{
+  background-image: url('../04-media/images/footer.png');
+  max-width: 100%;
+  height: auto; 
+  background-color: transparent;
+}
+
+.input-field>label {
+  color:black;
+}
+
+.my-class-divider{
+  margin: 35px 0 35px 0;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.my-class-lien {
+  margin-right: 15px;
+}
+
+.my-class-footer{
+  margin-bottom: 0px;
+}

@@ -1,0 +1,50 @@
+.navbar-fixed{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.transparentBG {
+  background-color: rgba(0, 0, 0, 0.64);
+}
+
+.brand-logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.brand-logo img {
+  vertical-align: top;
+  height: 100%;
+  width: 80px;
+  float: right;
+}
+
+.material-icons + h2{
+  display: inline-block;
+  font-family: prison;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+#nav-mobile li a {
+  font-size: 14px;
+}
+
+
+.sidenav-trigger{
+  float: right !important;
+}
+
+@media only screen and (max-width: 992px){
+  .brand-logo {
+    left: 0% !important;
+  }
+}
+
+@media only screen and (min-width: 993px){
+  .container {
+    width: 85%;
+}
+}
+

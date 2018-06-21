@@ -1,0 +1,155 @@
+#wrapper{
+  position: relative;
+  width: 100%;
+  min-height: 55vw;
+  overflow: hidden;
+}
+
+.layer{
+  position: absolute;
+  width: 100vw;
+  min-height: 55vw;
+  overflow: hidden;
+}
+
+.layer .content-wrap{
+  position: absolute;
+  width: 100vw;
+  min-height: 55vw;
+}
+
+.layer .content-body{
+  width: 156%;
+  position: absolute;
+  top: 50%;
+  text-align: justify;
+  transform: translateY(-50%);
+  z-index: 9;
+  height: 60%;
+  overflow: auto;
+}
+
+.layer h1{
+  color: white;
+  font-size: 1.9em;
+  padding: 0 30px 0 30px;
+}
+
+.textzoom{
+  padding: 0 30px 0 30px;
+}
+
+
+.content-body > p{
+  color: white;
+}
+
+.layer img{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  z-index: 1;
+}
+
+
+iframe{
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 91;
+  box-shadow: 2px 1px 25px 6px #c1c1c1b0;
+}
+
+
+.bottom{
+  background-color: transparent;
+  z-index: 1;
+}
+
+.bottom .content-body{
+  right: 5%;
+}
+
+.bottom h1{
+  color: #FDAB00;
+}
+
+
+.top{
+  background-color: #eee;
+  color: #222;
+  z-index: 2;
+  width: 50vw;
+}
+
+.top .content-body{
+  left: 65px;
+}
+
+
+.handle{
+  position: absolute;
+  height: 100%;
+  display: block;
+  background-color: white;
+  width: 15px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}
+
+
+.skewed .handle{
+  top: 50%;
+  transform: rotate(30deg) translateY(-50%);
+  height: 200%;
+  transform-origin: top;
+}
+
+.skewed .top{
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px);
+}
+
+.skewed .top .content-wrap{
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
+
+@media(max-width: 768px){
+  body{
+    font-size: 65%;
+  }
+}
+
+
+.content-body{
+  background-color: rgba(0, 0, 0, 0.565);
+  max-width: 900px;
+}
+
+
+@media(max-width: 750px){
+  .layer .content-body {
+    width: 44%;
+  }
+}
+
+@media(max-width: 750px){
+  .layer .content-body {
+    width: 44%;
+  }
+}
+
+@media(max-width: 690px){
+  .layer .content-body {
+    width: 64%;
+  }
+}

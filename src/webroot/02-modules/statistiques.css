@@ -1,0 +1,19 @@
+.pourcentage, .pourcentage-text{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+}
+
+.pourcentage{
+  font-size: 20px;
+}
+
+.pourcentage-text{
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+
+.my-class-pourcentage{
+  background-color: #eaeaea;
+  height: 200px;
+}
