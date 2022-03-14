@@ -8,7 +8,10 @@
     "build": "webpack --mode production"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "Semmy Hakimi",
   "license": "ISC",
