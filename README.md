@@ -10,13 +10,13 @@
 
 
 ### Link Demo 
-www.hakimisemmy.com/react_movie
+https://stoic-lovelace-daf53c.netlify.app
 
 
 ### Author
 
 Semmy HAKIMI
-http://www.hakimisemmy.com
+https://hakimisemmy.netlify.app/home
 
 ### Version
 1.0.0
